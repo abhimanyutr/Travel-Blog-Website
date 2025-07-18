@@ -1,0 +1,28 @@
+.card img{
+    transition: transform 1s;
+}
+
+
+.card img:hover{
+   transform: scale(1.1);
+}
+.card{
+    overflow: hidden;
+}
+
+.container .one{
+    font-weight: bold;
+    font-family: "Lemon", serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(115, 115, 115);
+  }
+  .container h2{
+    
+    font-family: "Saira Stencil One", sans-serif;
+    color: #008bb191;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  }
+  .collapse a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }

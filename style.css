@@ -1,0 +1,100 @@
+.card-group img:hover{
+ transform: scale(1.2);
+}
+.card-group .card{
+    overflow: hidden;
+    border: 0;
+}
+
+/* Caroseal */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+  z-index:2;
+  display: flex;
+  top:50%;
+  height: 200px;
+}
+.carousel-caption h5{
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1;
+  
+}
+/* .carousel-inner::before{
+  content:' ';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+} */
+ /* From Uiverse.io by Creatlydev */ 
+
+
+
+
+
+
+/* .banner-img{
+   animation-name: img;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes img{
+    50%{
+        transform:scaleX(1.2)
+    } */
+
+
+/* header{
+    background-image: url(https://cdn.pixabay.com/photo/2021/12/15/20/21/sea-6873335_1280.jpg);
+    background-size: cover;
+} */
+ .b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: #0000001a;
+  border: solid rgba(0,0,0,.15);
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em #0000001a,inset 0 .125em .5em #00000026;}
+
+  
+  .container .one{
+    font-weight: bold;
+    font-family: "Lemon", serif;
+    color: rgb(0, 0, 0);
+     text-shadow: 1px 1px 1px rgb(115, 115, 115);
+  }
+  .container .display-5{
+     font-family: "Agbalumo", system-ui;
+     text-shadow: 1px 1px 1px rgb(115, 115, 115);
+  }
+  .collapse a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  #cards h1{
+    font-family: "Saira Stencil One", sans-serif;
+  }
+  .heading{
+     height: 95vh;
+    min-height: 300px;
+  }
+
+ 
