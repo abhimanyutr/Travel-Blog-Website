@@ -1,253 +1,937 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" href="https://cdn.pixabay.com/photo/2021/11/02/18/58/airline-6763903_1280.png">
-
-
-    <!-- Bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="https://cdn.pixabay.com/photo/2021/11/02/18/58/airline-6763903_1280.png">
+  <!-- Font Awosome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./blog.css">
 
   <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap"
+    rel="stylesheet">
 
 </head>
+
 <body>
-    <!-- Nav Bar --> 
-     <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg  fixed-top shadow-lg">
-                <div class="container">
-                <a class="navbar-brand one" href="#">Miles & Memories</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link " href="./home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./blog.html"><b>Blog</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
+  <!-- Nav Bar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  fixed-top shadow-lg z-index-1 bg-light">
+    <div class="container">
+      <a class="navbar-brand one" href="#"><span class="text-warning"> Miles </span>& <span
+          class="text-info">Memories</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./blog.html"><b>Blog</b></a>
+          </li>
+         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Travel Resources
+                                Individual Blog
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./Destination.html">Destinations</a></li>
-                                <li><a class="dropdown-item" href="./individual.html">Individual Blog</a></li>
+                                <P class="text-center">Travelers</P>
                                 <li>
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider p-0 mb-0">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Travel Guide</a></li>
+                                <li><a class="dropdown-item" href="./Destination.html">Miya</a></li>
+                                <li><a class="dropdown-item" href="./individual.html">Arjun</a></li>
+                                <li><a class="dropdown-item" href="./Destination.html">Rahul</a></li>
+                                <li><a class="dropdown-item" href="./Destination.html">Priya</a></li>
+                                
                             </ul>
+                           
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true"></a>
-                        </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-target="#mymodal" data-bs-toggle="modal">Contact</a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Travel Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Destination.html">Destinations</a></li>
+              <li><a class="dropdown-item" href="./individual.html">Individual Blog</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Travel Guide</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class=" d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal   -->
+  <div id="mymodal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+
+      <div class="modal-content rounded-1 shadow">
+        <div class="modal-header p-3 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2">Contact Us</h1> <button type="button" class="btn-close" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4 pt-0">
+          <form class="">
+            <div class="form-floating mb-2">
+              <input type="text" class="form-control rounded-2" id="floatingInput" placeholder="Name...">
+              <label for="text">Name
+              </label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-2" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email
+                address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <textarea class="form-control rounded-3" placeholder="Leave a message here" id="floatingMessage"
+                style="height: 100px"></textarea>
+              <label for="floatingMessage">Message</label>
+            </div> <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Submit</button>
+            <!-- <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small> -->
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Connect with us through your favorite platform:</h2>
+            <a href="https://www.instagram.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#instagram"></use>
+              </svg>
+              Instagram
+            </a>
+
+            <a href="https://twitter.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#twitter"></use>
+              </svg>
+              Twitter
+            </a>
+
+            <a href="https://facebook.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#facebook"></use>
+              </svg>
+              Facebook
+            </a>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div>
+
+    <div class="row mt-5 pt-5 px-5">
+      <div class="col-md-8">
+
+        <article class="blog-post">
+          <h2 class="display-5 link-body-emphasis mb-1">Wander With Us: Travel Stories & Adventures</h2>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <p>Welcome to our travel blog — your window to the world’s most breathtaking destinations, hidden gems, and cultural experiences. From tropical beaches to snowy peaks, each post is a story from the road, shared by passionate travelers. Dive in, get inspired, and start planning your next great escape.</p>
+          <hr>
+          <p>Whether you're a seasoned explorer or planning your very first getaway, our blog offers a blend of practical tips, personal stories, and photo-rich inspiration to fuel your wanderlust. Discover local traditions, must-visit spots, off-the-beaten-path experiences, and honest insights from real travelers just like you. Let every scroll take you closer to your next adventure.</p>
+          <h2>Stories</h2>
+
+           <div class="row  py-5">
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img
+                  src="https://www.thetraveler.org/content/images/size/w1200/2025/07/Tokyo.webp"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Tokyo Diaries</h5>
+                  <p class="card-text">Author: Priya | Date: June 10, 2021</p>
+                  <p class="card-text">Where ancient meet futuristic skylines in..</p>
+                  <a href="post.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0" data-bs-toggle="modal" data-bs-target="#priya">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/16/09/indonesia-1578647_1280.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Exploring Bali: Land of Gods</h5>
+                  <p class="card-text">Author: Arjun | Date: Oct 24, 2019</p>
+                  <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                  <a href="./individual.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0" data-bs-toggle="modal" data-bs-target="#arjun">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img src="https://img.freepik.com/premium-photo/eiffel-tower-paris-france_700955-1672.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Streets of Paris</h5>
+                  <p class="card-text">Author: Rahul | Date: Junuary 15, 2025</p>
+                  <p class="card-text">Acharming walk past cafes, cobbled...</p>
+                  <a href="post.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0" data-bs-toggle="modal" data-bs-target="#rahul">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            <!-- More blog posts -->
+              
+          </div>
+
+          <div class="row  py-5">
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img
+                  src="https://deih43ym53wif.cloudfront.net/venice-italy-shutterstock_759608542_0bc86b2a60.jpeg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title"> Italy : Roman Wonders</h5>
+                  <p class="card-text">Author: Mia | Date: June 10, 2025</p>
+                  <p class="card-text">From ancient ruins to romantic canals, Italy offers...</p>
+                  <a href="post.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0" data-bs-toggle="modal" data-bs-target="#miya">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img
+                  src="https://cdn.getyourguide.com/image/format=auto,fit=contain,gravity=auto,quality=60,width=1440,height=650,dpr=2/tour_img/8574d7eff49cb2842ea7438c5b0ff53aa6d3328a85d24c472fd350170931e032.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Wonders of India</h5>
+                  <p class="card-text">Author: Samuel | Date: November 19, 2022</p>
+                  <p class="card-text">From the Himalayas to tropical...</p>
+                  <a href="post.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0" data-bs-toggle="modal" data-bs-target="#miya">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow ">
+                <img
+                  src="https://www.touropia.com/gfx/b/2016/12/Hallstatt_Austria.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Europe on a Buget</h5>
+                  <p class="card-text">Author: sheha | Date: December 03, 2023</p>
+                  <p class="card-text">Discovering culture-rich..</p>
+                  <a href="post.html"
+                    class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                    more..</a>
+                  <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                </div>
+              </div>
+            </div>
+            <!-- More blog posts -->
+             </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+
+                  <!-- Modal Header with Close Button -->
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <!-- Modal Body with Rounded Image Card -->
+                  <div class="modal-body">
+                    <div class="card text-center" style="width: 100%;">
+                      <img
+                        src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1153787885.jpg?crop=1xw:0.896484375xh;center,top&resize=980:*"
+                        class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                        style="width: 150px; height: 150px; object-fit: cover;">
+
+                      <div class="card-body">
+                        <h5 class="card-title">Sam Samuel</h5>
+                        <p class="card-text">Sam Samuel is a passionate travel blogger who explores hidden gems around
+                          the world. With a love for culture, cuisine, and storytelling, he brings every destination to
+                          life through his vivid travel experiences.</p>
+                      </div>
+
+                      <ul class="list-group list-group-light list-group-small">
+                        <li class="list-group-item px-4">Cras justo odio</li>
+                        <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                        <li class="list-group-item px-4">Vestibulum at eros</li>
+                      </ul>
+
+                      <div class="card-body">
+                        <a href="#" class="card-link">Facebook</a>
+                        <a href="#" class="card-link">Instagram</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+           
+            <div class="row py-5">
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://www.phurr.in/uploaded_files/prodimages/gallery_f7a4dc3.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Kerala: Gods Paradise</h5>
+                    <p class="card-text">Author: Sam | Date: March 12, 2025</p>
+                    <p class="card-text">Lush backwaters,misty hills and serene beaches makes...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!-- More blog posts -->
+               
+
+
+              <!-- Modal Priya-->
+              <div class="modal fade" id="priya" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2017/06/05/12/31/girl-2373979_1280.jpg"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Priya Sharon</h5>
+                          <p class="card-text">Priya Sharon is a passionate travel blogger who explores hidden gems around
+                            the world. With a love for culture, cuisine, and storytelling, she brings every destination
+                            to life through his vivid travel experiences.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+               <!-- Modal Arjun-->
+              <div class="modal fade" id="arjun" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2016/11/22/22/21/adventure-1850912_1280.jpg"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Arjun Thomas</h5>
+                          <p class="card-text">Arjun Thomas is an avid traveler and storyteller who explores the world with curiosity and heart. From hidden villages to vibrant cities, he shares real stories, local culture, and travel tips to inspire meaningful journeys.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+               <!-- Modal RAHUL-->
+              <div class="modal fade" id="rahul" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2017/02/01/16/39/snowboarder-2030709_1280.jpg"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Rahul T Shankar</h5>
+                          <p class="card-text">Rahul T Shankar is a passionate traveler with a love for the road less taken. From remote mountain trails to bustling city markets, he dives deep into local cultures and hidden gems. Rahul’s adventures are all about spontaneity, storytelling, and capturing the spirit of each journey.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+               <!-- Modal Miya-->
+              <div class="modal fade" id="miya" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2022/01/23/20/50/woman-6961929_1280.jpg"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Miya John</h5>
+                          <p class="card-text">Mia John is a fearless solo traveler and photographer who seeks beauty in the unexpected. With a backpack and a camera, she journeys across continents capturing sunsets, street food, and soulful moments. Her blog is a window into cultures, people, and places that inspire wanderlust.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+                
+            <div class="row py-5">
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <!-- More blog posts -->
+               </div>
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1153787885.jpg?crop=1xw:0.896484375xh;center,top&resize=980:*"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Sam Samuel</h5>
+                          <p class="card-text">Sam Samuel is a passionate travel blogger who explores hidden gems around
+                            the world. With a love for culture, cuisine, and storytelling, he brings every destination
+                            to life through his vivid travel experiences.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="row py-5">
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow ">
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"
+                    class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Fiesta in Italy</h5>
+                    <p class="card-text">Author: Mia | Date: July 10, 2025</p>
+                    <p class="card-text">Taste the best pasta and pizza in Rome...</p>
+                    <a href="post.html"
+                      class=" btn  btn-outline-secondary text-uppercase float-end p-1 text-primary border-0">Read
+                      more..</a>
+                    <a href="post.html" class="btn btn-outline-warning border-0">Author Bio</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <!-- More blog posts -->
+               
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+
+                    <!-- Modal Header with Close Button -->
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body with Rounded Image Card -->
+                    <div class="modal-body">
+                      <div class="card text-center" style="width: 100%;">
+                        <img
+                          src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1153787885.jpg?crop=1xw:0.896484375xh;center,top&resize=980:*"
+                          class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                          style="width: 150px; height: 150px; object-fit: cover;">
+
+                        <div class="card-body">
+                          <h5 class="card-title">Sam Samuel</h5>
+                          <p class="card-text">Sam Samuel is a passionate travel blogger who explores hidden gems around
+                            the world. With a love for culture, cuisine, and storytelling, he brings every destination
+                            to life through his vivid travel experiences.</p>
+                        </div>
+
+                        <ul class="list-group list-group-light list-group-small">
+                          <li class="list-group-item px-4">Cras justo odio</li>
+                          <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                          <li class="list-group-item px-4">Vestibulum at eros</li>
+                        </ul>
+
+                        <div class="card-body">
+                          <a href="#" class="card-link">Facebook</a>
+                          <a href="#" class="card-link">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              
+          
+
+
+
+          
+          
+        </article>
+
+
+
+      </div>
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 6rem;">
+          <div class="p-4 mb-3 bg-body-tertiary rounded">
+            <h4 class="fst-italic">About Miles & Memories</h4>
+            <p class="mb-0">We’re a crew of explorers who believe the world is best experienced one step at a time. Join
+              us as we hike, fly, wander, and reflect across continents.</p>
+          </div>
+          <div>
+            <h4 class="fst-italic">Recent posts</h4>
+            <ul class="list-unstyled">
+              <li> <a
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                  href="#">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">Wandering Through the Streets of Paris</h6> <small
+                      class="text-body-secondary">January 15,
+                      2025</small>
+                  </div>
+                </a> </li>
+              <li> <a
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                  href="#">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0"> Kerala : Gods Paradise</h6> <small class="text-body-secondary">March
+                      12,
+                      2025</small>
+                  </div>
+                </a> </li>
+              <li> <a
+                  class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                  href="#">
+                  <div class="col-lg-8">
+                    <h6 class="mb-0">Historic Italy</h6> <small class="text-body-secondary">June
+                      10, 2025</small>
+                  </div>
+                </a> </li>
+            </ul>
+          </div>
+          <div class="p-4">
+            <h4 class="fst-italic">Explore by Travel Type</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">Cultural Travels</a></li>
+              <li><a href="#">Adventure Travels</a></li>
+              <li><a href="#">Beach Escapes</a></li>
+              <li><a href="#">Wellness Retreats</a></li>
+              <li><a href="#">Backpacking Trips</a></li>
+              <li><a href="#">City Life & Shopping</a></li>
+              <li><a href="#">Food & Culinary Trails</a></li>
+              <li><a href="#">Nature & Wildlife</a></li>
+              <li><a href="#">Girls on the Go</a></li>
+            </ul>
+          </div>
+          <div class="p-4">
+
+            <ol class="list-unstyled d-flex justify-content-between">
+              <li> <i class="fa-brands fa-square-facebook"></i> </li>
+              <li> <i class="fa-brands fa-square-instagram"></i></li>
+              <li> <i class="fa-brands fa-twitter"></i></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+
+          <!-- Modal Header with Close Button -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Author Bio</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body with Rounded Image Card -->
+          <div class="modal-body">
+            <div class="card text-center" style="width: 100%;">
+              <img
+                src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1153787885.jpg?crop=1xw:0.896484375xh;center,top&resize=980:*"
+                class="card-img-top rounded-circle mx-auto mt-3" alt="Chicago Skyscrapers"
+                style="width: 150px; height: 150px; object-fit: cover;">
+
+              <div class="card-body">
+                <h5 class="card-title">Sam Samuel</h5>
+                <p class="card-text">Sam Samuel is a passionate travel blogger who explores hidden gems around the
+                  world. With a love for culture, cuisine, and storytelling, he brings every destination to life through
+                  his vivid travel experiences.</p>
+              </div>
+
+              <ul class="list-group list-group-light list-group-small">
+                <li class="list-group-item px-4">Cras justo odio</li>
+                <li class="list-group-item px-4">Dapibus ac facilisis in</li>
+                <li class="list-group-item px-4">Vestibulum at eros</li>
+              </ul>
+
+              <div class="card-body">
+                <a href="#" class="card-link">Facebook</a>
+                <a href="#" class="card-link">Instagram</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  <!-- footer -->
+  <!-- Footer -->
+    <div class="container-fluid px-5">
+        <footer class="py-1">
+            <div class="row"> 
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Destinations</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
                     </ul>
-                    <form class=" d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-warning" type="submit">Search</button>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Services</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Itinerary Guides</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Travel Planning Tips</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Travel Package</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Follow Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe</h5>
+                        <p></p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                type="button">Subscribe</button> </div>
+
                     </form>
+                    
                 </div>
             </div>
-                </nav>
-    <div class="container pt-5 mt-2 blog">
-        <img src="./Images/blog-banner2.jpg" alt="" height="550px" width="100% ">
-  <h2 class="text-center my-4 fs-1 w-100  container-fluid " style="background-image: url(./Images/blog-banner.png);"><b> BLOG POSTS</b></h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Travel Blog:
+    <a class="text-body" href="https://mdbootstrap.com/">All Right Reserved</a>
+  </div>
+        </footer>
     </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <!-- More blog posts -->
-  </div>
 
-<div class="row">
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <!-- More blog posts -->
-  </div>
-<div class="row">
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card shadow ">
-        <img src="https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/544c159b-9d31-4879-ba60-b0d76a4ccf06/hazelnut-food-festival-italy.jpg"  class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Food Fiesta in Italy</h5>
-          <p class="card-text">Author: Mia | Date: July 10, 2025</p>
-          <p class="card-text">Taste the best pasta and pizza in Rome...</p>
-          <a href="post.html" class="btn btn-secondary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <!-- More blog posts -->
- 
-
-
-  </div>
-
-<!-- footer -->
-<footer class="py-5">
-    <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-            </ul>
-        </div>
-        <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
-                        class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
-                        class="form-control" placeholder="Email address"> <button class="btn btn-primary"
-                        type="button">Subscribe</button> </div>
-            </form>
-        </div>
-    </div>
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2025 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi" width="24"
-                        height="24">
-                        <use xlink:href="#instagram"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi" width="24"
-                        height="24" aria-hidden="true">
-                        <use xlink:href="#facebook"></use>
-                    </svg></a></li>
-        </ul>
-    </div>
-</footer>
-
-</div>
+  </div>
 
 
 
 </body>
+
 </html>
