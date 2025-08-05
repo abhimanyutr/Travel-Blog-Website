@@ -15,16 +15,24 @@
 
 
   <!-- Font Awosome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
 
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">  
-<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -32,121 +40,130 @@
 
 
 
-  <nav class="navbar desti-nav navbar-expand-lg border fixed-top shadow-lg bg-light">
-
-            <div class="container">
-                <a class="navbar-brand one text-uppercase" href="#"> <span class="text-warning"> Miles </span>& <span class="text-info">Memories</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link " href="./index.html"><b>Home</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  data-bs-target="#mymodal" data-bs-toggle="modal">Contact</a>
-                            
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  fixed-top shadow-lg z-index-1 bg-light">
+    <div class="container">
+      <a class="navbar-brand one" href="#"><span class="text-warning"> Miles </span>& <span
+          class="text-info">Memories</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html"><b>Blog</b></a>
+          </li>
+         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Travel Resources
+                                Individual Blog
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./Destination.html">Destinations</a></li>
-                                <li><a class="dropdown-item" href="./individual.html">Individual Blog</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Travel Guide</a></li>
-                            </ul>
+                            <ul class="dropdown-menu " aria-labelledby="individualDropdown">
+            <h6 class="dropdown-header text-center">Travelers</h6>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-center" href="#">Mia</a></li>
+            <li><a class="dropdown-item text-center" href="./individual.html">Rohan</a></li>
+            <li><a class="dropdown-item text-center" href="./paris.html">John</a></li>
+            <li><a class="dropdown-item text-center" href="#">Priya</a></li>
+            <li><a class="dropdown-item text-center" href="#">Saam</a></li>
+            
+          </ul>
+                           
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true"></a>
-                        </li>
-                    </ul>
-                    <form class=" d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-warning" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+
+          <li class="nav-item">
+            <a class="nav-link " href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-target="#mymodal" data-bs-toggle="modal">Contact</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./Destination.html">Destinations</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class=" d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
   <!-- Modal -->
-   <!-- Modal   -->
-    <div id="mymodal" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-    
-            <div class="modal-content rounded-1 shadow">
-                <div class="modal-header p-3 pb-4 border-bottom-0">
-                    <h1 class="fw-bold mb-0 fs-2">Contact Us</h1> <button type="button" class="btn-close"
-                        data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-4 pt-0">
-                    <form class="">
-                        <div class="form-floating mb-2">
-                            <input type="text" class="form-control rounded-2" id="floatingInput" placeholder="Name...">
-                            <label for="text">Name
-                            </label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control rounded-2" id="floatingInput"
-                                placeholder="name@example.com"> <label for="floatingInput">Email
-                                address</label>
-                        </div>
-    
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control rounded-3" placeholder="Leave a message here" id="floatingMessage"
-                                style="height: 100px"></textarea>
-                            <label for="floatingMessage">Message</label>
-                        </div> <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Submit</button>
-                        <!-- <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small> --><hr class="my-4">
-                        <h2 class="fs-5 fw-bold mb-3">Connect with us through your favorite platform:</h2>
-                        <a href="https://www.instagram.com/yourpage" target="_blank"
-                            class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
-                            <svg class="bi me-2" width="16" height="16" aria-hidden="true">
-                                <use xlink:href="#instagram"></use>
-                            </svg>
-                            Instagram
-                        </a>
-    
-                        <a href="https://twitter.com/yourpage" target="_blank"
-                            class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
-                            <svg class="bi me-2" width="16" height="16" aria-hidden="true">
-                                <use xlink:href="#twitter"></use>
-                            </svg>
-                            Twitter
-                        </a>
-    
-                        <a href="https://facebook.com/yourpage" target="_blank"
-                            class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
-                            <svg class="bi me-2" width="16" height="16" aria-hidden="true">
-                                <use xlink:href="#facebook"></use>
-                            </svg>
-                            Facebook
-                        </a>
-                    </form>
-                </div>
-            </div>
-    
+  <!-- Modal   -->
+  <div id="mymodal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+
+      <div class="modal-content rounded-1 shadow">
+        <div class="modal-header p-3 pb-4 border-bottom-0">
+          <h1 class="fw-bold mb-0 fs-2">Contact Us</h1> <button type="button" class="btn-close" data-bs-dismiss="modal"
+            aria-label="Close"></button>
         </div>
+        <div class="modal-body p-4 pt-0">
+          <form class="">
+            <div class="form-floating mb-2">
+              <input type="text" class="form-control rounded-2" id="floatingInput" placeholder="Name...">
+              <label for="text">Name
+              </label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control rounded-2" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email
+                address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <textarea class="form-control rounded-3" placeholder="Leave a message here" id="floatingMessage"
+                style="height: 100px"></textarea>
+              <label for="floatingMessage">Message</label>
+            </div> <button class="w-100 mb-2 btn btn-lg rounded-3 btn-outline-warning" type="submit">Submit</button>
+            <!-- <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small> -->
+            <hr class="my-4">
+            <h2 class="fs-5 fw-bold mb-3">Connect with us through your favorite platform:</h2>
+            <a href="https://www.instagram.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#instagram"></use>
+              </svg>
+              Instagram
+            </a>
+
+            <a href="https://twitter.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#twitter"></use>
+              </svg>
+              Twitter
+            </a>
+
+            <a href="https://facebook.com/yourpage" target="_blank"
+              class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3 d-flex align-items-center justify-content-center">
+              <svg class="bi me-2" width="16" height="16" aria-hidden="true">
+                <use xlink:href="#facebook"></use>
+              </svg>
+              Facebook
+            </a>
+          </form>
+        </div>
+      </div>
+
     </div>
+  </div>
 
-  <div class="heading" style="height: 0vh;">
+  <!-- <div class="heading" style="height: 0vh;">
 
-    <img src="./Images/banner.png" class="img-fluid w-100 " alt="" style="height: 350px;" >
+    <img src="./Images/banner.png" class="img-fluid w-100 " alt="" style="height: 350px;">
 
-    <div class="carousel-caption pb-5 mb-5" >
+    <div class="carousel-caption pb-5 mb-5">
 
       <div class="carousel-caption d-none d-md-block">
         <h5>Destination Guides</h5>
@@ -156,7 +173,7 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
   <!-- Cards -->
   <!-- <div class="cards">
 
@@ -168,7 +185,72 @@
   
 </div> -->
 
-  <div class="card-group mt-0 cardmobile">
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body">
+    <div class="container-fluid">
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div
+  class="p-5 text-center bg-image "
+  style="
+    background-image: url('https://cdn.getyourguide.com/img/location/60b4d07edac13.jpeg/99.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div class="mask " style=" background-color: rgba(0, 0, 0, 0.186); height: 100%;">
+    <div class="d-flex flex-column justify-content-center align-items-center h-100 text-white">
+      <h1 class="mb-3 fw-bold display-4">Discover Your Next Destination</h1>
+      <h4 class="mb-4">Where do You Want to Go?</h4>
+
+      <div class="input-group mb-3 w-75 w-md-50" style="max-width: 500px;">
+        <input type="text" class=" form-control form-control-lg" placeholder="Search destination..." aria-label="Search destination" />
+        
+      </div>
+
+      <a class="btn btn-outline-light btn-lg mt-2" href="#carouselExampleCaptions" role="button">
+        Explore Now
+      </a>
+    </div>
+  </div>
+</div>
+
+  <!-- Background image -->
+</header>
+
+  <!-- <div class="card-group mt-0 cardmobile">
     <div class="card ">
       <img src="https://cdn.pixabay.com/photo/2020/09/18/14/13/mountains-5581991_1280.jpg" class="card-img-top"
         alt="...">
@@ -189,10 +271,11 @@
 
     </div>
     <div class="card">
-      <img src="https://cdn.pixabay.com/photo/2021/07/27/11/22/mountains-6496638_1280.jpg" class="card-img-top" alt="...">
+      <img src="https://cdn.pixabay.com/photo/2021/07/27/11/22/mountains-6496638_1280.jpg" class="card-img-top"
+        alt="...">
 
     </div>
-  </div>
+  </div> -->
 
   <!-- Discribtion -->
 
@@ -220,9 +303,43 @@
           class="link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">SOUTH AMERICA</a></h4>
       <h4 class="text-center"><a href="#"
           class="link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">OCIANIA</a></h4>
-      <img
-        src="https://media1.thehungryjpeg.com/thumbs2/ori_3909525_uaahib9xdg0f1ffg9k8r4xcrw8epgrk48ptlh993_world-map-infographics-continents-with-colorful-location-pins-intern.jpg"
-        alt="" height="400px" width="100%">
+    <div class="container-fluid col-xxl-10 px-0 pt-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5">
+        <div class="col-10 col-sm-8 col-lg-8"> <img src="https://static.vecteezy.com/system/resources/previews/006/510/640/original/abstract-world-map-with-pin-points-vector.jpg" class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes" width="700" height="800" loading="lazy"> </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li> <a
+                class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-1 link-body-emphasis text-decoration-none border-top"
+                href="#"> <img src="https://img.freepik.com/premium-photo/embark-exhilarating-motorcycle-adventure-through-winding-roads-picturesque-landscapes-generated-by-ai_855332-1273.jpg" preserveAspectRatio="xMidYMid slice"
+                  width="100%" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100%" height="100%" fill="#777"></rect>
+               
+                
+              </a> </li>
+            <li> <a
+                class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-1 link-body-emphasis text-decoration-none border-top"
+                href="#"> <img src="https://img.freepik.com/premium-photo/trekking-illustration-hd-8k-wall-paper-stock-photographic-image_890746-68079.jpg" preserveAspectRatio="xMidYMid slice"
+                  width="100%" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100%" height="100%" fill="#777"></rect>
+               
+                
+              </a> </li>
+            <li> <a
+                class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-1 link-body-emphasis text-decoration-none border-top "
+                href="#"> <img src="https://img.freepik.com/premium-photo/wildlife-photographer-practical-outdoor-gear_1151178-1606.jpg" preserveAspectRatio="xMidYMid slice"
+                  width="100%" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="100%" height="100%" fill="#777"></rect>
+               
+                <div class="col-lg-8">
+                  <!-- <h6 class="mb-0">Longer blog post title: This one has multiple lines!</h6> <small
+                    class="text-body-secondary">January 13, 2024</small>
+                </div> -->
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     </div>
     <div class="col-3" style="height: 940px;">
 
@@ -284,481 +401,564 @@
     </div>
 
   </div>
+
+
+
+  
+
+  <!-- lastday -->
+
+<div class="container px-4 py-5" id="custom-cards ">
+  <h2 class="pb-2 border-bottom">Popular Destinations</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+    
+    <div class="col">
+      <div class="card text-white shadow-sm  border-0" 
+           style="height: 250px; background: url('https://cdn.pixabay.com/photo/2019/12/15/18/24/winter-4697776_1280.jpg') center center / cover no-repeat;">
+        <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-10 h-100 p-3">
+          <h5 class="card-title mb-2 fw-bold">Himalayas – Home to Mount Everest, the world’s highest peak.</h5>
+          <div class="d-flex justify-content-between align-items-center text-white-50 small">
+            <span>Nepal & India</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card text-white shadow-sm  border-0" 
+           style="height: 250px; background: url('https://media.cntraveller.com/photos/611becca628f4910ed10222d/16:9/w_1024%2Cc_limit/gettyimages-1044285108.jpg') center center / cover no-repeat;">
+        <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-10 h-100 p-3">
+          <h5 class="card-title mb-2 fw-bold"> Amazon Rainforest - The largest rainforest on Earth</h5>
+          <div class="d-flex justify-content-between align-items-center text-white-50 small">
+            <span>Brazil</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card text-white shadow-sm  border-0" 
+           style="height: 250px; background: url('https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_1280.jpg') center center / cover no-repeat;">
+        <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-10 h-100 p-3">
+          <h5 class="card-title mb-2 fw-bold">Maldives — 1,000+ tropical islands in the Indian Ocean.</h5>
+          <div class="d-flex justify-content-between align-items-center text-white-50 small">
+            <span> South Asia</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  <div class="ecommerce-gallery vertical" data-mdb-ecommerce-gallery-init>
+    <div class="row">
+      
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-1"></div>
+          <div class="col-md-11">
+
+            <div class="row">
+              <div class="col-sm-11">
+
+
+
+
+                <div class="container-fluid text-center mt-5">
+
+                  <div class="row pb-5">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators ">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active ">
+                            <img
+                              src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-hero?qlt=82&ts=1726650384852"
+                              class="d-block w-100 " height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Taj Mahal - INDIA</h5>
+                              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a
+                                unforgettable
+                                journey.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <img
+                              src="https://s.yimg.com/ny/api/res/1.2/jvkzkQLZ51wXmHswNTiktg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2021-07/59a4bc60-f23c-11eb-bf75-c38993010fb7"
+                              class="d-block w-100 " height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Tokyo - JAPAN</h5>
+                              <p>Japan offers a perfect mix of ancient culture, natural beauty, and modern innovation.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <img src="https://www.sailingeurope.com/blog/wp-content/uploads/2019/08/XXL_Thailand-resized.jpg" class="d-block w-100 " height="550vh"
+                              alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Island - THAILAND</h5>
+                              <p>Thailand is known for its stunning beaches, rich traditions and delicious.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> Asia </h1>
+
+                      <ul class="list-group list-group-flush bg-secondary">
+                        <li class="list-group-item list-group-item-action">India </li>
+                        <li class="list-group-item list-group-item-action">Singapore</li>
+                        <li class="list-group-item list-group-item-action">Japan</li>
+                        <li class="list-group-item list-group-item-action">China</li>
+                        <li class="list-group-item list-group-item-action">Thailand</li>
+                        <li class="list-group-item list-group-item-action">South Korea </li>
+                        <li class="list-group-item list-group-item-action">Malaysia</li>
+                        <li class="list-group-item list-group-item-action">Indonesia</li>
+                        <li class="list-group-item list-group-item-action">Philippines</li>
+                        <li class="list-group-item list-group-item-action">Nepal</li>
+                        <li class="list-group-item list-group-item-action">Vietnam </li>
+                        <li class="list-group-item list-group-item-action">Turkey</li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row" id="asia">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://jenmansafaris.com/wp-content/uploads/2014/12/victoria-falls-s.jpg"
+                              class="d-block w-100" height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Victoria Falls</h5>
+                              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a
+                                unforgettable
+                                journey.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.pentrental.com/wp-content/uploads/2019/06/Cape_Town-2048x1365.jpg"
+                              class="d-block w-100" height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Cape Town - SOUTH AFRICA</h5>
+
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="https://www.ugandarwanda-safaris.com/wp-content/uploads/2024/04/8-Day-Highlights-of-Kenya-and-Tanzania-Safari-1024x675.jpg"
+                              class="d-block w-100 " height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Maasai Maru, Kenya</h5>
+                              <p>World Famous for its incredible wildlife.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> AFRICA </h1>
+
+                      <ul class="list-group list-group-flush bg-secondary text-center">
+                        <li class="list-group-item list-group-item-action">Egypt</li>
+                        <li class="list-group-item list-group-item-action">South Africa</li>
+                        <li class="list-group-item list-group-item-action">Kenya</li>
+                        <li class="list-group-item list-group-item-action">Moroco</li>
+                        <li class="list-group-item list-group-item-action">Tanzania</li>
+                        <li class="list-group-item list-group-item-action">Mozambique </li>
+                        <li class="list-group-item list-group-item-action">Namibia</li>
+                        <li class="list-group-item list-group-item-action">Tunisha</li>
+                        <li class="list-group-item list-group-item-action">Ghana</li>
+                        <li class="list-group-item list-group-item-action">Ethiopia</li>
+                        <li class="list-group-item list-group-item-action">Uganda</li>
+                        <li class="list-group-item list-group-item-action">Rwanda</li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                  <div class="row" id="Europe">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2017/01/03/22/00/tower-1950742_1280.jpg"
+                              class="d-block w-100" height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Paris - France</h5>
+                              <p>Known as the City if Love, Famous for thr Effel Tower, art, Fashion and Romantic charm.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2022/06/06/20/03/rome-7246885_1280.jpg"
+                              class="d-block w-100" height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Rome - ITALY</h5>
+                              <p>A city rich in history, with iconic landmarks like the collosseum, Vatican City, and
+                                Roman ruins</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="https://cdn.getyourguide.com/image/format=auto,fit=contain,gravity=auto,quality=60,width=1440,height=650,dpr=2/tour_img/5b335ccde71ae.jpeg"
+                              class="d-block w-100 " height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Barcelona - SPAIN</h5>
+                              <p>Avibrant city known for guadi's architecture, Mediterranean beaches, and lively street
+                                life.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> EUROPE </h1>
+
+                      <ul class="list-group list-group-flush bg-secondary text-center">
+                        <li class="list-group-item list-group-item-action">France </li>
+                        <li class="list-group-item list-group-item-action">Italy</li>
+                        <li class="list-group-item list-group-item-action">Spain</li>
+                        <li class="list-group-item list-group-item-action">Greece</li>
+                        <li class="list-group-item list-group-item-action">Switzerland</li>
+                        <li class="list-group-item list-group-item-action">United Kindom</li>
+                        <li class="list-group-item list-group-item-action">Austria</li>
+                        <li class="list-group-item list-group-item-action">Germany</li>
+                        <li class="list-group-item list-group-item-action">Netherlands</li>
+                        <li class="list-group-item list-group-item-action">Portugal</li>
+                        <li class="list-group-item list-group-item-action">Czech Republic </li>
+                        <li class="list-group-item list-group-item-action">Croatia</li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+
+                  <div class="row" id="europe">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="https://images.alphacoders.com/100/thumb-1920-1000255.jpg"
+                              class="d-block w-100" height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5> New York City, USA</h5>
+                              <p>Explore the vibrant energy of NYC, from Times Square’s glowing lights to Central Park’s serene greenery. </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="https://d3d0lqu00lnqvz.cloudfront.net/media/media/be7a97e5-19d2-4df5-b348-a549dd5b3fe7.jpg"
+                              class="d-block w-100" height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Banff Park, Canada</h5>
+                              <p> Crystal-clear lakes like Lake Louise, majestic mountain peaks, and scenic hiking trails offer breathtaking views.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://www.travelinglifestyle.net/wp-content/uploads/2015/04/Cancun-Dominates-The-Most-Searched-Travel-Destinations-For-Summer-2024-According-To-Expedia.jpg" class="d-block w-100 " height="550vh"
+                              alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Cancún - Mexico</h5>
+                              <p>Known for its white-sand beaches and turquoise waters, Cancún is perfect for both relaxation and adventure.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> NORTH AMERICA </h1>
+
+                      <ul class="list-group list-group-flush bg-secondary text-center">
+                        <li class="list-group-item list-group-item-action">United States</li>
+                        <li class="list-group-item list-group-item-action">Canada</li>
+                        <li class="list-group-item list-group-item-action">Mexico</li>
+                        <li class="list-group-item list-group-item-action">Cuba</li>
+                        <li class="list-group-item list-group-item-action">Bahamas</li>
+                        <li class="list-group-item list-group-item-action">Jamaica</li>
+                        <li class="list-group-item list-group-item-action">Dominican Republic</li>
+                        <li class="list-group-item list-group-item-action">Costa Rica</li>
+                        <li class="list-group-item list-group-item-action">Panama</li>
+                        <li class="list-group-item list-group-item-action">Guatemala</li>
+                        <li class="list-group-item list-group-item-action">Belize </li>
+                        
+
+                      </ul>
+
+                    </div>
+                  </div>
+
+                  <div class="row" id="SAmerica">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="https://i.pinimg.com/originals/e7/62/4d/e7624d51bb86cd11c4c6d9622371b8e2.jpg"
+                              class="d-block w-100" height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Cartagena </h5>
+                              <p>Cartagena is a colorful, historic city where colonial charm meets tropical beauty.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="https://images.wallpapersden.com/image/download/rio-de-janeiro-hd-cityscape-brazil_bW5oa2aUmZqaraWkpJRmaGtlrWxrbQ.jpg"
+                              class="d-block w-100" height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Rio de Janeiro </h5>
+                              <p>Famous for its vibrant culture, Carnival, and stunning beaches like Copacabana and Ipanema.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://media.architecturaldigest.com/photos/57e2dba0f2e2598d338a04fe/master/pass/torres-del-paine-national-park.jpg" class="d-block w-100 " height="550vh"
+                              alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Patagonia</h5>
+                              <p>This vast region at the southern tip of South America is a dream for adventurers. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> SOUTH AMERICA</h1>
+
+                      <ul class="list-group list-group-flush bg-secondary text-center">
+                        <li class="list-group-item list-group-item-action">Argentina </li>
+                        <li class="list-group-item list-group-item-action">Colombia</li>
+                        <li class="list-group-item list-group-item-action">Brazil</li>
+                        <li class="list-group-item list-group-item-action">Chile</li>
+                        <li class="list-group-item list-group-item-action">Ecuador</li>
+                        <li class="list-group-item list-group-item-action">Bolvia </li>
+                        <li class="list-group-item list-group-item-action">Uruguay</li>
+                        <li class="list-group-item list-group-item-action">Paraguay</li>
+                        <li class="list-group-item list-group-item-action">Vanezuela</li>
+                        <li class="list-group-item list-group-item-action">Guyana</li>
+                        <li class="list-group-item list-group-item-action">Suriname </li>
+                     
+
+                      </ul>
+
+                    </div>
+                  </div>
+
+                  <div class="row" id="ociania">
+                    <div class="col-sm-10">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+                        data-bs-interval="2050">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="https://www.hdwallpapers.in/download/downtown_sydney_australia-wide.jpg"
+                              class="d-block w-100" height="78%" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Sydney - Australia</h5>
+                              <p>Home to the iconic Sydney Opera House and Harbour Bridge</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="https://vistapointe.net/images/queenstown-new-zealand-wallpaper-19.jpg"
+                              class="d-block w-100" height="550vh" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Queenstown - New Zealand</h5>
+                              
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://pacificislandliving.com/wp-content/uploads/2018/06/JMC-05.jpg" class="d-block w-100 " height="550vh"
+                              alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Fiji Islands</h5>
+                              <p>Over 300 islands with coral reefs, beaches, and clear waters.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <h1 class="text-center"> OSIANIA </h1>
+
+                      <ul class="list-group list-group-flush bg-secondary text-center">
+                        <li class="list-group-item list-group-item-action">Australia </li>
+                        <li class="list-group-item list-group-item-action">New Zealand</li>
+                        <li class="list-group-item list-group-item-action">Fiji</li>
+                        <li class="list-group-item list-group-item-action">Papua New Guinea</li>
+                        <li class="list-group-item list-group-item-action">Solomon Islands</li>
+                        <li class="list-group-item list-group-item-action">Samoa </li>
+                        <li class="list-group-item list-group-item-action">Vanuatu</li>
+                        <li class="list-group-item list-group-item-action">Tonga</li>
+                        <li class="list-group-item list-group-item-action">Kiribati</li>
+                        <li class="list-group-item list-group-item-action">Marshall Islands</li>
+                        <li class="list-group-item list-group-item-action">Nauru</li>
+                        <li class="list-group-item list-group-item-action">Tuvailu</li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <!-- scrollplay -->
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
   <!-- Today -->
 
-<div class="container">
-
-  <div class="row">
-
-   <div class="col-md-1"></div>
-   <div class="col-md-11">
-
-    <div class="row">
-  <div class="col-sm-12">
-      
-     <div class="container-fluid text-center mt-5">
-
-    <div class="row">
-      <div class="col-sm-10">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-hero?qlt=82&ts=1726650384852"
-                class="d-block w-100" height="78%" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Taj Mahal - INDIA</h5>
-                <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a unforgettable
-                  journey.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D"
-                class="d-block w-100" height="550vh" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Tokyo - JAPAN</h5>
-                <p>Japan offers a perfect mix of ancient culture, natural beauty, and modern innovation.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://wallpaperaccess.com/full/150678.jpg" class="d-block w-100 " height="550vh" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Island - THAILAND</h5>
-                <p>Thailand is known for its stunning beaches, rich traditions and delicious.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <div class="col-sm-2">
-        <h1 class="text-center"> Asia </h1>
-
-        <ul class="list-group list-group-flush bg-secondary">
-          <li class="list-group-item list-group-item-action">India </li>
-          <li class="list-group-item list-group-item-action">Singapore</li>
-          <li class="list-group-item list-group-item-action">Japan</li>
-          <li class="list-group-item list-group-item-action">China</li>
-          <li class="list-group-item list-group-item-action">Thailand</li>
-          <li class="list-group-item list-group-item-action">South Korea </li>
-          <li class="list-group-item list-group-item-action">Malaysia</li>
-          <li class="list-group-item list-group-item-action">Indonesia</li>
-          <li class="list-group-item list-group-item-action">Philippines</li>
-          <li class="list-group-item list-group-item-action">Nepal</li>
-          <li class="list-group-item list-group-item-action">Vietnam </li>
-          <li class="list-group-item list-group-item-action">Turkey</li>
-
-        </ul>
-
-      </div>
-    </div>
 
 
- 
-  
-  <div class="row" id="asia">
-    <div class="col-sm-10">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://jenmansafaris.com/wp-content/uploads/2014/12/victoria-falls-s.jpg"
-              class="d-block w-100" height="78%" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Victoria Falls</h5>
-              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a unforgettable
-                journey.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://www.pentrental.com/wp-content/uploads/2019/06/Cape_Town-2048x1365.jpg"
-              class="d-block w-100" height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Cape Town - SOUTH AFRICA</h5>
-              
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.ugandarwanda-safaris.com/wp-content/uploads/2024/04/8-Day-Highlights-of-Kenya-and-Tanzania-Safari-1024x675.jpg" class="d-block w-100 " height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Maasai Maru, Kenya</h5>
-              <p>World Famous for its incredible wildlife.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <h1 class="text-center"> AFRICA </h1>
-
-      <ul class="list-group list-group-flush bg-secondary text-center">
-        <li class="list-group-item list-group-item-action">Egypt</li>
-        <li class="list-group-item list-group-item-action">South Africa</li>
-        <li class="list-group-item list-group-item-action">Kenya</li>
-        <li class="list-group-item list-group-item-action">Moroco</li>
-        <li class="list-group-item list-group-item-action">Tanzania</li>
-        <li class="list-group-item list-group-item-action">Mozambique </li>
-        <li class="list-group-item list-group-item-action">Namibia</li>
-        <li class="list-group-item list-group-item-action">Tunisha</li>
-        <li class="list-group-item list-group-item-action">Ghana</li>
-        <li class="list-group-item list-group-item-action">Ethiopia</li>
-        <li class="list-group-item list-group-item-action">Uganda</li>
-        <li class="list-group-item list-group-item-action">Rwanda</li>
-
-      </ul>
-
-    </div>
-  </div>
-  <div class="row" id="Europe">
-    <div class="col-sm-10">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://cdn.pixabay.com/photo/2017/01/03/22/00/tower-1950742_1280.jpg"
-              class="d-block w-100" height="78%" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Paris - France</h5>
-              <p>Known as the City if Love, Famous for thr Effel Tower, art, Fashion and Romantic charm.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://cdn.pixabay.com/photo/2022/06/06/20/03/rome-7246885_1280.jpg"
-              class="d-block w-100" height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Rome - ITALY</h5>
-              <p>A city rich in history, with iconic landmarks like the collosseum, Vatican City, and Roman ruins</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://cdn.getyourguide.com/image/format=auto,fit=contain,gravity=auto,quality=60,width=1440,height=650,dpr=2/tour_img/5b335ccde71ae.jpeg" class="d-block w-100 " height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Barcelona - SPAIN</h5>
-              <p>Avibrant city known for guadi's architecture, Mediterranean beaches, and lively street life.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <h1 class="text-center"> EUROPE </h1>
-
-      <ul class="list-group list-group-flush bg-secondary text-center">
-        <li class="list-group-item list-group-item-action">France </li>
-        <li class="list-group-item list-group-item-action">Italy</li>
-        <li class="list-group-item list-group-item-action">Spain</li>
-        <li class="list-group-item list-group-item-action">Greece</li>
-        <li class="list-group-item list-group-item-action">Switzerland</li>
-        <li class="list-group-item list-group-item-action">United Kindom</li>
-        <li class="list-group-item list-group-item-action">Austria</li>
-        <li class="list-group-item list-group-item-action">Germany</li>
-        <li class="list-group-item list-group-item-action">Netherlands</li>
-        <li class="list-group-item list-group-item-action">Portugal</li>
-        <li class="list-group-item list-group-item-action">Czech Republic </li>
-        <li class="list-group-item list-group-item-action">Croatia</li>
-
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="row" id="europe">
-    <div class="col-sm-10">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-hero?qlt=82&ts=1726650384852"
-              class="d-block w-100" height="78%" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Taj Mahal - INDIA</h5>
-              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a unforgettable
-                journey.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D"
-              class="d-block w-100" height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tokyo - JAPAN</h5>
-              <p>Japan offers a perfect mix of ancient culture, natural beauty, and modern innovation.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://wallpaperaccess.com/full/150678.jpg" class="d-block w-100 " height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Island - THAILAND</h5>
-              <p>Thailand is known for its stunning beaches, rich traditions and delicious.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <h1 class="text-center"> NORTH AMERICA </h1>
-
-      <ul class="list-group list-group-flush bg-secondary text-center">
-        <li class="list-group-item list-group-item-action">United States</li>
-        <li class="list-group-item list-group-item-action">Canada</li>
-        <li class="list-group-item list-group-item-action">Mexico</li>
-        <li class="list-group-item list-group-item-action">Cuba</li>
-        <li class="list-group-item list-group-item-action">Bahamas</li>
-        <li class="list-group-item list-group-item-action">Jamaica</li>
-        <li class="list-group-item list-group-item-action">Dominican Republic</li>
-        <li class="list-group-item list-group-item-action">Costa Rica</li>
-        <li class="list-group-item list-group-item-action">Panama</li>
-        <li class="list-group-item list-group-item-action">Guatemala</li>
-        <li class="list-group-item list-group-item-action">Belize </li>
-        <li class="list-group-item list-group-item-action">Puerto</li>
-
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="row" id="SAmerica">
-    <div class="col-sm-10">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-hero?qlt=82&ts=1726650384852"
-              class="d-block w-100" height="78%" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Taj Mahal - INDIA</h5>
-              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a unforgettable
-                journey.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D"
-              class="d-block w-100" height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tokyo - JAPAN</h5>
-              <p>Japan offers a perfect mix of ancient culture, natural beauty, and modern innovation.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://wallpaperaccess.com/full/150678.jpg" class="d-block w-100 " height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Island - THAILAND</h5>
-              <p>Thailand is known for its stunning beaches, rich traditions and delicious.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <h1 class="text-center"> SOUTH AMERICA</h1>
-
-      <ul class="list-group list-group-flush bg-secondary text-center">
-        <li class="list-group-item list-group-item-action">Argentina </li>
-        <li class="list-group-item list-group-item-action">Colombia</li>
-        <li class="list-group-item list-group-item-action">Brazil</li>
-        <li class="list-group-item list-group-item-action">Chile</li>
-        <li class="list-group-item list-group-item-action">Ecuador</li>
-        <li class="list-group-item list-group-item-action">Bolvia </li>
-        <li class="list-group-item list-group-item-action">Uruguay</li>
-        <li class="list-group-item list-group-item-action">Paraguay</li>
-        <li class="list-group-item list-group-item-action">Vanezuela</li>
-        <li class="list-group-item list-group-item-action">Guyana</li>
-        <li class="list-group-item list-group-item-action">Suriname </li>
-        <li class="list-group-item list-group-item-action">Peru</li>
-
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="row" id="ociania">
-    <div class="col-sm-10">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2050">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://s7ap1.scene7.com/is/image/incredibleindia/taj-mahal-agra-uttar-pradesh-1-attr-hero?qlt=82&ts=1726650384852"
-              class="d-block w-100" height="78%" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Taj Mahal - INDIA</h5>
-              <p>Land of Vibrant culture, breathtaking landscapes and timeless heritage that promises a unforgettable
-                journey.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG9reW98ZW58MHx8MHx8fDA%3D"
-              class="d-block w-100" height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tokyo - JAPAN</h5>
-              <p>Japan offers a perfect mix of ancient culture, natural beauty, and modern innovation.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://wallpaperaccess.com/full/150678.jpg" class="d-block w-100 " height="550vh" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Island - THAILAND</h5>
-              <p>Thailand is known for its stunning beaches, rich traditions and delicious.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <h1 class="text-center"> OSIANIA </h1>
-
-      <ul class="list-group list-group-flush bg-secondary text-center">
-        <li class="list-group-item list-group-item-action">Australia </li>
-        <li class="list-group-item list-group-item-action">New Zealand</li>
-        <li class="list-group-item list-group-item-action">Fiji</li>
-        <li class="list-group-item list-group-item-action">Papua New Guinea</li>
-        <li class="list-group-item list-group-item-action">Solomon Islands</li>
-        <li class="list-group-item list-group-item-action">Samoa </li>
-        <li class="list-group-item list-group-item-action">Vanuatu</li>
-        <li class="list-group-item list-group-item-action">Tonga</li>
-        <li class="list-group-item list-group-item-action">Kiribati</li>
-        <li class="list-group-item list-group-item-action">Marshall Islands</li>
-        <li class="list-group-item list-group-item-action">Nauru</li>
-        <li class="list-group-item list-group-item-action">Tuvailu</li>
-
-      </ul>
-
-    </div>
-  </div>
-
- </div>
-
-
-
-  </div>
-
-  
-    
-        <!-- scrollplay -->
-      
-
-
-      
-    </div>
-  </div>
-</div>
-
-   </div>
-  
-  </div>
-
-</div>
 
 
 
@@ -849,18 +1049,57 @@
     </div>
   </div>
 
-  <div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-      </ul>
-      
-      <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
-    </footer>
+    <!-- Footer -->
+    <div class="container-fluid px-5">
+        <footer class="py-1">
+            <div class="row"> 
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Destinations</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Services</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Itinerary Guides</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Travel Planning Tips</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Travel Package</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Follow Us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+                        </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe</h5>
+                        <p></p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                type="button">Subscribe</button> </div>
+
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Travel Blog:
+    <a class="text-body" href="https://mdbootstrap.com/">All Right Reserved</a>
+  </div>
+        </footer>
+    </div>
   </div>
 
 
