@@ -30,10 +30,23 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Emblema+One&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lilita+One&family=Poller+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rammetto+One&family=Sevillana&display=swap" rel="stylesheet">
+
 
 
     <!-- Style -->
 <style>
+.one{
+    font-weight: bold;
+    font-family: "Poller One", sans-serif;
+    color: rgb(15, 15, 15);
+    gap: 5;
+     text-shadow: 1px 1px 1px rgb(115, 115, 115);
+  }
+
   .desti-card1{
     transition: transform 1s;
 }
@@ -56,6 +69,19 @@
 .card-my:hover{
   transform: scale(1.05);
 }
+.banner-cap
+  {
+    font-family: "Poller One", sans-serif;
+    
+    text-shadow: 2px 3px 4px rgb(2, 2, 2);
+    
+  }
+  .cap
+  {
+  
+    font-family: "Caprasimo", serif;
+  
+  }
 
 </style>
 </head>
@@ -230,17 +256,15 @@
 >
   <div class="mask " style=" background-color: rgba(0, 0, 0, 0.186); height: 100%;">
     <div class="d-flex flex-column justify-content-center align-items-center h-100 text-white">
-      <h1 class="mb-3 fw-bold display-4">Discover Your Next Destination</h1>
+      <h1 class="mb-3 fw-bold display-4 banner-cap">Discover Your Next Destination</h1>
       <h4 class="mb-4">Where do You Want to Go?</h4>
 
       <div class="input-group mb-3 w-75 w-md-50" style="max-width: 500px;">
-        <input type="text" class=" form-control form-control-lg" placeholder="Search destination..." aria-label="Search destination" />
+        <input type="text" class="bg-transparent form-control form-control-lg" placeholder="Search destination..." aria-label="Search destination" />
         
       </div>
 
-      <a class="btn btn-outline-light btn-lg mt-2" href="#carouselExampleCaptions" role="button">
-        Explore Now
-      </a>
+      
     </div>
   </div>
 </div>
@@ -255,7 +279,7 @@
       <p class="text-start p-4">Our destination guides have been created with updated information on countries that we
         have visited around the world. We update these travel guides yearly so you can have the most recent information
         when planning your trip.</p>
-      <h1 class="text-center">Click on the Region You want to explore
+      <h1 class="text-center cap">Click on the Region You want to explore
       </h1>
 
 
@@ -379,14 +403,14 @@
   <!-- lastday -->
 
 <div class="container px-4 py-5" id="custom-cards ">
-  <h2 class="pb-2 border-bottom">Popular Destinations</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+  <h2 class="pb-2 border-bottom cap">Popular Destinations</h2>
+  <div class="row m-0 row-cols-1 row-cols-md-3 g-4 py-4">
     
     <div class="col card-my">
       <div class="card text-white shadow-sm  border-0" 
            style="height: 250px; background: url('https://cdn.pixabay.com/photo/2019/12/15/18/24/winter-4697776_1280.jpg') center center / cover no-repeat;">
         <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-10 h-100 p-3">
-          <h5 class="card-title mb-2 fw-bold">Himalayas – Home to Mount Everest, the world’s highest peak.</h5>
+          <h5 class="card-title mb-2 fw-bold ">Himalayas – Home to Mount Everest, the world’s highest peak.</h5>
           <div class="d-flex justify-content-between align-items-center text-white-50 small">
             <span>Nepal & India</span>
             
@@ -428,7 +452,7 @@
 
 
   <div class="ecommerce-gallery vertical" data-mdb-ecommerce-gallery-init>
-    <div class="row">
+    <div class="row m-0">
       
 
       <div class="container">
@@ -841,7 +865,7 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img
-                              src="https://www.hdwallpapers.in/download/downtown_sydney_australia-wide.jpg"
+                              src="https://www.cunard.com/content/dam/cunard/inventory-assets/ports/SYD/yqy.jpg"
                               class="d-block w-100" height="78%" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Sydney - Australia</h5>
@@ -1046,9 +1070,11 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h5>Follow Us</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+                        
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-instagram"></i> Instagram </a> </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                       
                         </ul>
                 </div>
                 <div class="col-md-5 offset-md-1 mb-3">
@@ -1057,7 +1083,7 @@
                         <p></p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
                                 class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
-                                class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                class="form-control" placeholder="Email address"> <button class="btn btn-outline-secondary"
                                 type="button">Subscribe</button> </div>
 
                     </form>

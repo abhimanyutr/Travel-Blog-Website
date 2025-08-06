@@ -19,16 +19,10 @@
     
       <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
-        rel="stylesheet">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
-        rel="stylesheet">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&family=Seymour+One&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Emblema+One&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lilita+One&family=Poller+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rammetto+One&family=Sevillana&display=swap" rel="stylesheet">
+
   <style>
      img{
     transition: transform 1s;
@@ -39,6 +33,26 @@
 .card{
     overflow: hidden;
 }
+.fa-brands{
+  transition: transform 0.5s;
+}
+.fa-brands:hover{
+   transform: scale(1.2);
+   color: black;
+}
+.banner-cap
+  {
+    font-family: "Poller One", sans-serif;
+    
+    text-shadow: 2px 3px 4px rgb(2, 2, 2);
+    
+  }
+  .cap
+  {
+  
+    font-family: "Caprasimo", serif;
+  
+  }
   </style>
 
 </head>
@@ -179,7 +193,7 @@
 >
 
   <div class="container py-5 mt-5">
-    <h1 class="display-4 fw-bold">Wandering Through the Streets of Paris</h1>
+    <h1 class="display-4 fw-bold banner-cap">Wandering Through the Streets of Paris</h1>
     <p class="lead">
       The City of Light, Love, and Limitless Beauty
     </p>
@@ -209,7 +223,7 @@ Paris is more than just a destination—it's an experience. Known as La Ville Lu
   
 
   <p>Paris. Known as La Ville Lumière (The City of Light), Paris is a harmonious blend of historical splendor, artistic heritage, culinary excellence, and a romantic ambiance that enchants travelers from across the globe.</p>
-  <h3>The Top Tourist Attractions in Paris
+  <h3 class="cap">The Top Tourist Attractions in Paris
 </h3>
   <p>Paris, the City of Lights, is one of the most stunning cities in the world and a must-visit destination for any traveler. With an abundance of attractions to choose from, it can be difficult to narrow down the top ten sights to see in this iconic city. From its magnificent monuments to its vibrant culture and cuisine, Paris has something for everyone.</p>
   <ul>
@@ -250,7 +264,7 @@ The tower has numerous levels with access to observation decks at different heig
   
   
  
-  <h2>The Parisian Experience:</h2>
+  <h2 class="cap">The Parisian Experience:</h2>
   <p>Whether it’s a moonlit cruise along the Seine, a quiet walk through Montmartre, or simply marveling at the intricate architecture, Paris has the power to awaken the romantic and artist in everyone. It’s a place where every moment feels cinematic.</p>
   
 <!-- Blog End -->
@@ -431,9 +445,11 @@ The tower has numerous levels with access to observation decks at different heig
                 <div class="col-6 col-md-2 mb-3">
                     <h5>Follow Us</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+                       
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-instagram"></i> Instagram </a> </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                       
                         </ul>
                 </div>
                 <div class="col-md-5 offset-md-1 mb-3">
@@ -442,7 +458,7 @@ The tower has numerous levels with access to observation decks at different heig
                         <p></p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
                                 class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
-                                class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                class="form-control" placeholder="Email address"> <button class="btn btn-outline-secondary"
                                 type="button">Subscribe</button> </div>
 
                     </form>

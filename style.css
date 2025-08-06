@@ -1,3 +1,6 @@
+
+
+
 .card-group img:hover{
  transform: scale(1.2);
 }
@@ -151,6 +154,14 @@ margin-right: 0;
     }
     
   }
+
+.cap
+  {
+  
+    font-family: "Caprasimo", serif;
+  
+  }
+
   .banner-cap
   {
     font-family: "Poller One", sans-serif;
@@ -173,4 +184,15 @@ margin-right: 0;
 }
 .card{
     overflow: hidden;
+}
+
+.fa-brands{
+  transition: transform 0.5s;
+}
+.fa-brands:hover{
+   transform: scale(1.2);
+   color: black;
+}
+.dropdown-item:active {
+  color: rgb(73, 70, 70); /* Change this to whatever color you want */
 }
