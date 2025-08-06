@@ -6,7 +6,7 @@
   }
   .container h2{
     
-    font-family:Arial, Helvetica, sans-serif;
+    
     color: #03c5d7e0;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
   }
@@ -14,6 +14,41 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
   }
+ .my-card img{
+  transition: transform 1s;
+ }
+
+ .my-card img:hover{
+  transform: scale(1.05);
+ }
  
+  .main-card img{
+  transition: transform 1s;
+ }
+
+ .main-card img:hover{
+  transform: scale(1.1);
+ }
+ .main-card{
+  overflow: hidden;
+ }
+
+  .author img{
+  transition: transform 1.5s;
+ }
+
+ .author img:hover{
+  transform: scale(1.1);
+  box-shadow: 1px 2px 2px 2px rgba(26, 26, 26, 0.707);
+ }
+ 
+
+ .banner-cap
+  {
+    font-family: "Poller One", sans-serif;
+    
+    text-shadow: 2px 3px 4px rgb(206, 206, 208);
+    
+  }
 
   

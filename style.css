@@ -77,8 +77,9 @@ margin-right: 0;
   
   .container .one{
     font-weight: bold;
-    font-family: "Lemon", serif;
+    font-family: "Poller One", sans-serif;
     color: rgb(255, 254, 254);
+    gap: 5;
      text-shadow: 1px 1px 1px rgb(115, 115, 115);
   }
   .container .display-5{
@@ -99,7 +100,7 @@ margin-right: 0;
 
  .banner-img{
   animation:banner;
-  animation-duration: 5s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
  }
@@ -150,3 +151,26 @@ margin-right: 0;
     }
     
   }
+  .banner-cap
+  {
+    font-family: "Poller One", sans-serif;
+    
+    text-shadow: 2px 3px 4px rgb(2, 2, 2);
+    
+  }
+  .banner-subcap
+  {
+    font-family: "Emblema One", system-ui;
+    color: rgba(249, 252, 252, 0.66);
+  }
+  .card img{
+    transition: transform 1s;
+}
+
+
+.card img:hover{
+   transform: scale(1.1);
+}
+.card{
+    overflow: hidden;
+}
